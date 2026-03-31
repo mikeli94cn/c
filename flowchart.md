@@ -29,6 +29,7 @@ flowchart TD
     B --> C
     B --> A
     C --> A
+    C --> B
     A --> D[ts_zoned]
     D --> E[tm_struct_zoned]
     D --> F[time_fmt_str_zoned]
