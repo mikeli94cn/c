@@ -17,3 +17,8 @@ flowchart TD
 - `C((Start/End))` → rounded node
 
 ---
+
+```mermaid
+flowchart time
+timestamp tm_struct time_fmt_str current_zone specific_zone
+```
