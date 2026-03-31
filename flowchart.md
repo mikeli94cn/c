@@ -23,7 +23,7 @@ flowchart TD
 ## dimension
 `now` `specific_zone`
 ```mermaid
-flowchart time
+flowchart TD
     A[ts_now] --> B[tm_struct_now]
     A --> C[time_fmt_str_now]  
     A --> D[ts_zoned]
