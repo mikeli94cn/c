@@ -18,7 +18,13 @@ flowchart TD
 
 ---
 
+## entity
+`timestamp` `tm_struct` `time_fmt_str`
+## dimension
+`now` `specific_zone`
 ```mermaid
 flowchart time
-timestamp tm_struct time_fmt_str current_zone specific_zone
+ts_now --> tm_struct_now 
+ts_now --> time_fmt_str_now  
+ts_now --> ts_zoned
 ```
