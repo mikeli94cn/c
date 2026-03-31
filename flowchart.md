@@ -27,5 +27,4 @@ flowchart TD
     A[ts_now] --> B[tm_struct_now]
     A --> C[time_fmt_str_now]  
     B --> C
-    A --> D[ts_zoned]
 ```
