@@ -21,7 +21,7 @@ flowchart TD
 ## entity
 `timestamp` `tm_struct` `time_fmt_str`
 ## dimension
-`now` `specific_zone`
+`now` `zoned`
 ```mermaid
 flowchart TD
     A[ts_now] --> B[tm_struct_now]
@@ -30,4 +30,6 @@ flowchart TD
     B --> A
     C --> A
     A --> D[ts_zoned]
+    D --> E[tm_struct_zoned]
+    D --> F[time_fmt_str_zoned]
 ```
