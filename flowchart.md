@@ -24,7 +24,7 @@ flowchart TD
 `now` `specific_zone`
 ```mermaid
 flowchart time
-ts_now --> tm_struct_now 
-ts_now --> time_fmt_str_now  
-ts_now --> ts_zoned
+A[ts_now] --> B[tm_struct_now]
+A[ts_now] --> C[time_fmt_str_now]  
+A[ts_now] --> D[ts_zoned]
 ```
