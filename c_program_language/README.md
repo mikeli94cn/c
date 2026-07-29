@@ -1,11 +1,11 @@
-## C命名规范
-1. 变量 全小写，下划线分隔
-1. 常量 全大写，下划线分隔
-1. 函数 全小写
-1. 文件 全小写，下划线分隔
-1. 全局变量 g_
+## C naming specification
+1. variable all lowercase，split by underline
+1. constant all uppercase，split by underline
+1. function all lowercase
+1. file all lowercase，split by underline
+1. global variable g_
 
-## C心得
-- 数组就是指针。指针是C语言的一等公民。用指针去思考问题。
-- 递归和循环是等价的。递归使用了计算机堆栈结构，更简洁。用递归去思考问题。
-- C和UNIX是紧密联系的。
+## C experience
+- array is pointer. pointer is the first class citizen in c. think in pointer.
+- recursion == loop. recursion use the stack structure of computer, so it concsecious and express clearly. think in recursion.
+- c seamlessly intergrated with unix.
