@@ -16,7 +16,7 @@ void merge_sort_iter(int arr[], int arr_len) {
       if (limit > gap) {
         int i = 1;
         int j = gap + 1;
-        int base=(group_no-1)*2*gap;
+        int base=(num-1)*2*gap;
         int sorted[limit];
         for (int k = 1; k <= limit; k++) {
           if (i > gap || arr[i - 1 + base] > arr[j + base - 1]) {
