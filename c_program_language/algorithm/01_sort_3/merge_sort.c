@@ -19,7 +19,7 @@ void merge_sort_iter(int arr[], int arr_len) {
         int base=(num-1)*2*gap;
         int sorted[limit];
         for (int k = 1; k <= limit; k++) {
-          if (i > gap || arr[i - 1 + base] > arr[j + base - 1]) {
+          if (j<=limit && (i > gap || arr[i - 1 + base] > arr[j + base - 1])) {
             sorted[k - 1] = arr[j + base - 1];
             j++;
           } else {
